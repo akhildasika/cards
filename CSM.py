@@ -23,6 +23,9 @@ class Deck(object):
             j = random.randint(0,i+1) 
             self.cards[i],self.cards[j] = self.cards[j],self.cards[i]
 
+    def deal(self):
+        self.pop(0)
+
 
     def pt(self):
         print(self)
