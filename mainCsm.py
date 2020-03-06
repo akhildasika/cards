@@ -15,6 +15,8 @@ while(d == 0):
         if(a == 2):
             print(deck1.deal)
             a = 0
+        else:
+            a = 0
                 
                 
 
