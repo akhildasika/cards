@@ -12,10 +12,9 @@ class Deck(object):
     
     def create(self):
         self.cards = []
-        for a in range(6):
-            for i in range(4):
-                for j in range(0,14):
-                       self.cards.append(Card(i, j))
+        for i in range(4):
+            for j in range(0,14):
+                    self.cards.append(Card(i, j))
 
     def shuffle(self):
         n = len(self.cards)
