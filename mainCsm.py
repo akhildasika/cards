@@ -8,9 +8,8 @@ for i in range(x):
     for i in range(4):
             for j in range(0,14):
                     decks.cards.append(Card(i, j))
-c = int(0)
+                    
 d = int(0)
-
 while(d == 0):
     b = int(input("1 to print: "))
     if(b == 1):
